@@ -74,12 +74,14 @@ h1, h2, h3 {
 
 #columns {
     height: 600px;
-    margin: 0 50px;
+    padding: -40px 50px;
+    background-color: #fff6ff;
 }
 
 #column-left img {
     width: 50%;
     float: left;
+    
 }
 
 #column-right {
@@ -90,28 +92,51 @@ h1, h2, h3 {
 #column-right h2 {
     text-align: center;
     font-size: 300%;
-    padding: 30px 150px 30px 0;
+    margin: 30px 150px 0 0;
 }
 
 #column-right p {
     text-align: center;
     font-size: 18px;
-    padding: 0px 150px 0 0; 
+    margin-right: 150px; 
 }
 
 #column-right span {
     text-align: center;
     font-size: 24px;
-    padding: 30px 0p 30px 0; 
 }
 
-#column-right a {
+#center-btn {
+    text-align: center;
+}
+
+#anti-age-btn {
     display: inline-block;
     text-decoration: none;
     color: #fff6ff;
     background-color: #682bd7;
-    font-size: 24px;
+    font-size: 32px;
     font-weight: 800;
-    padding: 10px 20px;
-    margin: 40px 0 0 250px;
+    padding: 20px 30px;
+    margin: 30px 150px 0 0;
+    transition: 0.5s;
+}
+
+#anti-age-btn:hover {
+    color: #682bd7;
+    background-color: #fff6ff;
+    border: 1px solid #252525;
+}
+
+/* Anti-age section */
+
+#anti-age {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#anti-age h2 {
+    font-size: 300%;
 }
