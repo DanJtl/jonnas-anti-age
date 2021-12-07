@@ -11,3 +11,61 @@ body {
     font-weight: 300;
     color: #3a3a3a;
 }
+
+/* logo and headings */
+
+header {
+    background-color: #682bd7;
+    height: 75px;
+}
+
+h1, h2, h3 {
+    font-family: Montserrat, sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    color: #252525
+}
+
+#logo {
+    float: left;
+    font-size: 300%;
+    font-weight: 800;
+    color: #fff6ff;
+    margin-left: 30px;
+}
+
+/* menu links */
+
+#menu {
+    font-size: 150%;
+    font-weight: 800;
+    letter-spacing: 2px;
+    display: flex;
+    flex-direction: row;
+    float: right;
+    margin-right: 30px;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #fff6ff;
+    border: 3px solid transparent;
+    display: inline;
+    padding: 5px;
+    border-radius: 7px;
+    transition: 0.5s;
+}
+
+#menu a:hover {
+    background-color: #fff6ff;
+    color: #682bd7;
+}
