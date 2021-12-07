@@ -23,7 +23,7 @@ h1, h2, h3 {
     font-family: Montserrat, sans-serif;
     text-transform: capitalize;
     letter-spacing: 2px;
-    color: #252525
+    color: #252525;
 }
 
 #logo {
@@ -68,4 +68,50 @@ h1, h2, h3 {
 #menu a:hover {
     background-color: #fff6ff;
     color: #682bd7;
+}
+
+/* column section */
+
+#columns {
+    height: 600px;
+    margin: 0 50px;
+}
+
+#column-left img {
+    width: 50%;
+    float: left;
+}
+
+#column-right {
+    width: 50%;
+    float: right;
+}
+
+#column-right h2 {
+    text-align: center;
+    font-size: 300%;
+    padding: 30px 150px 30px 0;
+}
+
+#column-right p {
+    text-align: center;
+    font-size: 18px;
+    padding: 0px 150px 0 0; 
+}
+
+#column-right span {
+    text-align: center;
+    font-size: 24px;
+    padding: 30px 0p 30px 0; 
+}
+
+#column-right a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff6ff;
+    background-color: #682bd7;
+    font-size: 24px;
+    font-weight: 800;
+    padding: 10px 20px;
+    margin: 40px 0 0 250px;
 }
