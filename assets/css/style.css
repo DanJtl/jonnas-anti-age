@@ -215,6 +215,17 @@ footer {
 
 /* For larger to medium screens size from 1200 px wide and down */
 @media screen and (max-width: 1200px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        line-height: 30px;
+    }
+
+    header {
+        height: 120px;
+    }
+
     #columns {
         width: 75%;
         height: 1125px;
@@ -240,17 +251,6 @@ footer {
         margin: 0 auto;
     }
 
-    #menu {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        line-height: 30px;
-    }
-
-    header {
-        height: 120px;
-    }
-
     .social-links {
         padding-top: 25px;
     }
@@ -265,5 +265,17 @@ footer {
     
     .social-links {
         padding-top: 25px;
+    }
+}
+
+/* For small screen sizes 800px and down */
+@media screen and (max-width: 800px) {
+    #menu {
+        line-height: 25px;
+        font-size: 120%;
+    }
+
+    #columns {
+        height: 1150px;
     }
 }
