@@ -75,7 +75,7 @@ h1, h2, h3 {
 #columns {
     height: 600px;
     padding: 0 50px;
-    background-color: #fff6ff;
+    background-color: #fff;
 }
 
 #column-left {
@@ -84,7 +84,7 @@ h1, h2, h3 {
 }
 
 #column-left img {
-    max-width: 118%;
+    width: 118%;
 }
 
 #column-right {
@@ -116,7 +116,7 @@ h1, h2, h3 {
 #anti-age-btn {
     display: inline-block;
     text-decoration: none;
-    color: #fff6ff;
+    color: #fff;
     background-color: #682bd7;
     font-size: 32px;
     font-weight: 800;
@@ -128,7 +128,7 @@ h1, h2, h3 {
 
 #anti-age-btn:hover {
     color: #682bd7;
-    background-color: #fff6ff;
+    background-color: #fff;
     border: 1px solid #252525;
 }
 
@@ -137,9 +137,9 @@ h1, h2, h3 {
 #anti-age {
     width: 100%;
     margin: auto;
-    background-color: #fff;
+    background-color: #fff6ff;
     text-align: center;
-    padding: 75px 0;
+    padding: 30px 0;
 }
 
 #anti-age h2 {
@@ -155,7 +155,7 @@ h1, h2, h3 {
 
 .anti-age-column {
     flex-basis: 20%;
-    background-color: #fff6ff;
+    background-color: #fff;
     border-radius: 20px;
     padding: 15px 30px;
     margin-bottom: 30px;
@@ -175,7 +175,7 @@ h1, h2, h3 {
 #free-consultation-btn {
     display: inline;
     text-decoration: none;
-    color: #fff6ff;
+    color: #fff;
     background-color: #682bd7;
     font-size: 24px;
     font-weight: 800;
@@ -186,7 +186,7 @@ h1, h2, h3 {
 
 #free-consultation-btn:hover {
     color: #682bd7;
-    background-color: #fff6ff;
+    background-color: #fff;
     border: 1px solid #252525;
 }
 
@@ -206,8 +206,8 @@ footer {
 
 .social-links i {
     font-size: 200%;
-    margin: 25px;
-    padding: 30px 75px;
+    margin: 2%;
+    padding: 1% 5%;
     color: #fff6ff;
 }
 
@@ -216,20 +216,54 @@ footer {
 /* For larger to medium screens size from 1200 px wide and down */
 @media screen and (max-width: 1200px) {
     #columns {
-        width: 65%;
-        height: 1200px;
+        width: 75%;
+        height: 1125px;
         margin: 0 auto;
+        padding: 0;
     }
     
     #column-left, #column-right {
-        width: 100%;
+        width: 90%;
         float: left;
+    }
+    #column-right {
+        margin-left: 90px;
+    }
+
+    #anti-age {
         padding: 0;
-        margin-right: 150px;
     }
 
     #anti-age-row {
         flex-direction: column;
+        max-width: 75%;
+        margin: 0 auto;
     }
 
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        line-height: 30px;
+    }
+
+    header {
+        height: 120px;
+    }
+
+    .social-links {
+        padding-top: 25px;
+    }
+}
+
+/* For medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+    
+    #columns {
+        height: 1075px;
+    }
+    
+    .social-links {
+        padding-top: 25px;
+    }
 }
