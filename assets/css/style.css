@@ -75,7 +75,7 @@ h1, h2, h3 {
 #columns {
     height: 600px;
     padding: 0 50px;
-    background-color: #fff;
+    background-color: #fff6ff;
 }
 
 #column-left {
@@ -84,7 +84,7 @@ h1, h2, h3 {
 }
 
 #column-left img {
-    width: 100%;
+    max-width: 118%;
 }
 
 #column-right {
@@ -95,13 +95,13 @@ h1, h2, h3 {
 #column-right h2 {
     text-align: center;
     font-size: 300%;
-    padding: 30px 150px 30px 0;
+    padding: 30px 75px 30px 0;
 }
 
 #column-right p {
     text-align: center;
     font-size: 18px;
-    margin-right: 150px; 
+    padding-right: 75px; 
 }
 
 #column-right span {
@@ -122,7 +122,7 @@ h1, h2, h3 {
     font-weight: 800;
     border-radius: 20px;
     padding: 20px 30px;
-    margin: 30px 150px 0 0;
+    margin: 30px 75px 0 0;
     transition: 0.5s;
 }
 
@@ -137,7 +137,7 @@ h1, h2, h3 {
 #anti-age {
     width: 100%;
     margin: auto;
-    background-color: #fff6ff;
+    background-color: #fff;
     text-align: center;
     padding: 75px 0;
 }
@@ -169,11 +169,11 @@ h1, h2, h3 {
 }
 
 #free-consultation-container {
-    margin: 10px 0;
+    margin: 30px 0;
 }
 
 #free-consultation-btn {
-    display: inline-block;
+    display: inline;
     text-decoration: none;
     color: #fff6ff;
     background-color: #682bd7;
@@ -209,4 +209,27 @@ footer {
     margin: 25px;
     padding: 30px 75px;
     color: #fff6ff;
+}
+
+/* Media queries */
+
+/* For larger to medium screens size from 1200 px wide and down */
+@media screen and (max-width: 1200px) {
+    #columns {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+    
+    #column-left, #column-right {
+        width: 100%;
+        float: left;
+        padding: 0;
+        margin-right: 150px;
+    }
+
+    #anti-age-row {
+        flex-direction: column;
+    }
+
 }
