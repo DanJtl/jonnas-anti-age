@@ -74,14 +74,17 @@ h1, h2, h3 {
 
 #columns {
     height: 600px;
-    padding: -40px 50px;
-    background-color: #fff6ff;
+    padding: 0 50px;
+    background-color: #fff;
+}
+
+#column-left {
+    width: 50%;
+    float: left;
 }
 
 #column-left img {
-    width: 50%;
-    float: left;
-    
+    width: 100%;
 }
 
 #column-right {
@@ -92,7 +95,7 @@ h1, h2, h3 {
 #column-right h2 {
     text-align: center;
     font-size: 300%;
-    margin: 30px 150px 0 0;
+    padding: 30px 150px 30px 0;
 }
 
 #column-right p {
@@ -106,7 +109,7 @@ h1, h2, h3 {
     font-size: 24px;
 }
 
-#center-btn {
+.center-btn {
     text-align: center;
 }
 
@@ -117,6 +120,7 @@ h1, h2, h3 {
     background-color: #682bd7;
     font-size: 32px;
     font-weight: 800;
+    border-radius: 20px;
     padding: 20px 30px;
     margin: 30px 150px 0 0;
     transition: 0.5s;
@@ -128,15 +132,56 @@ h1, h2, h3 {
     border: 1px solid #252525;
 }
 
-/* Anti-age section */
+/* Anti-age tips section */
 
 #anti-age {
     width: 100%;
     margin: auto;
+    background-color: #fff6ff;
     text-align: center;
-    padding-top: 30px;
+    padding: 75px 0;
 }
 
 #anti-age h2 {
     font-size: 300%;
+    padding: 75px 0 30px 0;
+}
+
+#anti-age-row {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.anti-age-column {
+    flex-basis: 20%;
+    background-color: #fff6ff;
+    border-radius: 20px;
+    padding: 15px 30px;
+    box-shadow: 0 0 30px 0px rgba(0, 0, 0, .3);
+}
+
+.anti-age-column h3 {
+    font-size: 24px;
+    margin: 10px 0;
+
+}
+
+#free-consultation-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff6ff;
+    background-color: #682bd7;
+    font-size: 24px;
+    font-weight: 800;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 10px 0;
+    transition: 0.5s;
+}
+
+#free-consultation-btn:hover {
+    color: #682bd7;
+    background-color: #fff6ff;
+    border: 1px solid #252525;
 }
