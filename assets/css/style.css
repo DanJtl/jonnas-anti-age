@@ -215,6 +215,94 @@ footer {
     color: #fff6ff;
 }
 
+/* Contact page */
+
+#contact {
+    height: 600px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.info, .open-times {
+    position: relative;
+    top: 10%;
+}
+
+.info h1 {
+    font-size: 300%;
+    text-transform: uppercase;
+}
+
+.info i {
+    font-size: 125%;
+}
+
+.info h2 {
+    font-size: 125%;
+}
+
+.info h1 h2 {
+    padding: 20px;
+}
+
+.info {
+    padding: 50px;
+}
+
+.info > h1 {
+    padding-bottom: 20px;
+}
+
+.info > h2 {
+    padding: 5px;
+}
+
+.open-times > h3 {
+    font-size: 200%;
+    padding-bottom: 10px;
+}
+
+.center {
+    font-size: 150%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table, tr, th {
+    border: 1px solid #252525;
+    border-collapse: collapse;
+    padding: 5px 10px;
+}
+
+.category {
+    background-color: #682bd7;
+    color: #fff6ff;
+} 
+
+/* Image bottom */
+
+#image-bottom {
+    height: 500px;
+    width: 100%;
+    background: url('../images/skin-care.jpg') no-repeat center center;
+    background-size: cover;
+    margin-top: 50px;
+}
+
+#image-bottom > h3 {
+    width: 50%;
+    font-size: 200%;
+    font-style: italic;
+    color: #372b47;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#image-bottom span {
+    color: #682bd7;
+}
+
 /* Media queries */
 
 /* For larger to medium screens size from 1200 px wide and down */
@@ -320,89 +408,14 @@ footer {
     .social-links {
         padding-top: 40px;
     }
+
+    .info, .open-times {
+        position: relative;
+        top: 0;
+    }
+
+    .info {
+        padding: 35px;
+    }
     
-}
-
-/* Contact page */
-
-#contact {
-    height: 600px;
-    text-align: center;
-    background-color: #fff;
-}
-
-.info, .open-times {
-    position: relative;
-    top: 10%;
-}
-
-.info h1 {
-    font-size: 300%;
-    text-transform: uppercase;
-}
-
-.info h2 {
-    font-size: 125%;
-}
-
-.info h1 h2 {
-    padding: 20px;
-}
-
-.info {
-    padding: 50px;
-}
-
-.info > h1 {
-    padding-bottom: 20px;
-}
-
-.info > h2 {
-    padding: 5px;
-}
-
-.open-times > h3 {
-    font-size: 200%;
-    padding-bottom: 10px;
-}
-
-.center {
-    font-size: 150%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-table, tr, th {
-    border: 1px solid #252525;
-    border-collapse: collapse;
-    padding: 5px 10px;
-}
-
-.category {
-    background-color: #682bd7;
-    color: #fff6ff;
-} 
-
-/* Image bottom */
-
-#image-bottom {
-    height: 500px;
-    width: 100%;
-    background: url('../images/skin-care.jpg') no-repeat center center;
-    background-size: cover;
-    margin-top: 50px;
-}
-
-#image-bottom > h3 {
-    width: 50%;
-    font-size: 200%;
-    font-style: italic;
-    color: #372b47;
-    margin: 0 auto;
-    text-align: center;
-    padding-top: 50px;
-}
-
-#image-bottom span {
-    color: #682bd7;
 }
