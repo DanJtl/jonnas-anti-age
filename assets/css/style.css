@@ -266,10 +266,11 @@ footer {
     font-size: 150%;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: 0 0 30px 0px rgba(0, 0, 0, .3);
 }
 
 table, tr, th {
-    border: 1px solid #252525;
+    border: 3px solid #252525;
     border-collapse: collapse;
     padding: 5px 10px;
 }
@@ -302,6 +303,23 @@ table, tr, th {
 #image-bottom span {
     color: #682bd7;
 }
+
+/* Form page*/
+
+.form {
+    height: 600px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
 
 /* Media queries */
 
@@ -416,6 +434,11 @@ table, tr, th {
 
     .info {
         padding: 35px;
+    }
+
+    #image-bottom > h3 {
+        width: 100%;
+        font-size: 150%;
     }
     
 }
