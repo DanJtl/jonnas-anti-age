@@ -349,15 +349,16 @@ footer {
 }
 
 .info > h1 {
-    padding: 20px;
+    padding-bottom: 20px;
 }
 
 .info > h2 {
     padding: 5px;
 }
 
-.open-times {
-    margin-top: 50px;
+.open-times > h3 {
+    font-size: 200%;
+    padding-bottom: 10px;
 }
 
 .center {
@@ -371,5 +372,10 @@ table, tr, th {
     border-collapse: collapse;
     padding: 5px 10px;
 }
+
+.category {
+    background-color: #682bd7;
+    color: #fff6ff;
+} 
 
 
