@@ -469,15 +469,24 @@ label {
     }
 
     .signup {
-        width: 40%;
+        width: 50%;
+    }
+
+    #image-bottom > h3 {
+        width: 100%;
+        font-size: 200%;
     }
 }
 
 /* For small screen sizes 800px and down */
 @media screen and (max-width: 800px) {
+    #logo {
+        font-size: 250%;
+    }
+
     #menu {
         line-height: 25px;
-        font-size: 115%;
+        font-size: 100%;
     }
 
     #columns {
@@ -495,6 +504,7 @@ label {
     #menu {
         font-size: 70%;
         line-height: 10px;
+        margin: 0 0 0 20px;
     }
 
     #menu a {
@@ -506,8 +516,12 @@ label {
     }
 
     #column-right {
-        margin-left: 20px;
+        margin-left: 10px;
         width: 110%;
+    }
+
+    #column-right > h2 {
+        font-size: 250%;
     }
 
     #columns {
@@ -535,5 +549,25 @@ label {
         width: 100%;
         font-size: 150%;
     }
+
+    .signup {
+        top: 15%;
+    }
     
+    #text-area > h2 {
+        font-size: 110%;
+    }
+
+    #text-area > h3 {
+        font-size: 100%;
+    }
+
+    #submit-btn {
+        font-size: 150%;
+    }
+
+    #image-form > h3 {
+        width: 100%;
+        font-size: 150%;
+    }
 }
