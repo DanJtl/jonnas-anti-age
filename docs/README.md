@@ -55,7 +55,7 @@ The goal of the website is to capture leads. It provides the user with quick and
 
 ### **Wireframe** ###
 Wireframe created in Balsamiq - design of the home page.
-![Free consultation page](../assets/images/wireframe.png)
+![Wireframe design](../assets/images/wireframe.png)
 ***
 
 ## **Testing And Validation**
@@ -74,7 +74,7 @@ Wireframe created in Balsamiq - design of the home page.
 
 **Accessibility report:**
 
-![Free consultation page](../assets/images/accessibility.jpg)
+![Accessibility report](../assets/images/accessibility.jpg)
 ***
 
 ## **Bugs** ##
