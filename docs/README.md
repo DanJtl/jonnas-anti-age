@@ -129,4 +129,4 @@ Icons is taken from https://fontawesome.com/
 - CSS code - flex direction learned from https://developer.mozilla.org/en-US/docs/Web/CSS/flex-direction
 - CSS code - justify-content learned from https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content
 - CSS code - box-shadow learned from https://www.w3schools.com/cssref/css3_pr_box-shadow.asp
-- CSS code - transition learn from https://www.w3schools.com/css/css3_transitions.asp
+- CSS code - transition learned from https://www.w3schools.com/css/css3_transitions.asp
