@@ -58,7 +58,7 @@ Wireframe created in Balsamiq - design of the home page.
 ![Free consultation page](../assets/images/wireframe.png)
 ***
 
-## **Testing**
+## **Testing And Validation**
 ---
 - **Responsive design.** The website is tested with Chrome and Firefox developer tools on all standard screen sizes.
 
@@ -68,7 +68,65 @@ Wireframe created in Balsamiq - design of the home page.
 
 - **Form works.** The form works as planned and is submiting the information correct.
 
-### **Validation** ###
+**HTML** - No errors were detected with official W3C validator.
 
+**CSS** - No errors were detected with official (Jigsaw) validator.
 
-HTML: No errors were returned when passing through the official W3C validator.
+**Accessibility report:**
+
+![Free consultation page](../assets/images/accessibility.jpg)
+***
+
+## **Bugs** ##
+---
+
+No bugs were detected.
+
+### **Unfixed bugs** ###
+
+No unfixed bugs.
+***
+
+## **Technologies Used** ##
+---
+
+### **Languages** ##
+- HTML
+- CSS
+
+### **Programs** ###
+- Gitpod: Used for writing code.
+- Git: Used for version-control.
+- GitHub: Used for store data and hosting platform.
+- Balsamiq: Used for wireframe.
+***
+
+## **Deployment** ##
+---
+
+The site was deployed with GitHub.
+Steps to deployment:
+- Navigate to Settings tab
+- Select Pages from the side menu
+- Under the source drop-down menu, select Main
+
+Link to the website: https://danjtl.github.io/jonnas-anti-age/index.html
+***
+
+## **Credits** ##
+---
+
+### **Images** ###
+Pictures is taken from https://www.canva.com/
+### **Colors** ###
+The color palette used is from https://mycolor.space/ca
+### **Fonts** ###
+Fonts is taken from https://fonts.google.com/
+### **Icons** ###
+Icons is taken from https://fontawesome.com/
+### **Codes** ###
+ 
+- CSS code - flex direction learned from https://developer.mozilla.org/en-US/docs/Web/CSS/flex-direction
+- CSS code - justify-content learned from https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content
+- CSS code - box-shadow learned from https://www.w3schools.com/cssref/css3_pr_box-shadow.asp
+- CSS code - transition learn from https://www.w3schools.com/css/css3_transitions.asp
