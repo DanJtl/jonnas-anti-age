@@ -51,7 +51,7 @@ A worrying aging women that is starting to get wrinkles, want some tips and advi
 
 ### **Goals For Website Owners** 
 
-The goal of the website is to capture leads. It provides the user with quick and easy content that explains the problem they are experiencing. The content leads them on to tips that ultimately encourage the user to seek the help of professionals if they are serious. And to to make it totally risk-free for the users, the website offers them a free consultation. 
+The goal of the website is to capture leads. It provides the user with quick and easy content that explains the problem they are experiencing. The content leads them on to tips that ultimately encourage the user to seek the help of professionals if they are serious. And to make it totally risk-free for the users, the website offers them a free consultation. 
 
 ### **Wireframe** ###
 Wireframe created in Balsamiq - design of the home page.
