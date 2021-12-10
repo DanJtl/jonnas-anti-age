@@ -1,6 +1,8 @@
 # **Jonnas Anti-Aging**
 Jonnas Anti-Age website is targeted toward women 40+, who are worried about aging and getting wrinkles. The site helps them with some easy tips to delay wrinkles and gives them an irresistible offer - a free consultation. 
 
+**Link to the website:** https://danjtl.github.io/jonnas-anti-age/
+
 ![Responsive website](../assets/images/jonnas-anti-aging-website.jpg)
 ***
 
@@ -70,7 +72,11 @@ Wireframe created in Balsamiq - design of the home page.
 
 **HTML** - No errors were detected with official W3C validator.
 
+Link: https://validator.w3.org/nu/?doc=https%3A%2F%2Fdanjtl.github.io%2Fjonnas-anti-age%2Findex.html
+
 **CSS** - No errors were detected with official (Jigsaw) validator.
+
+Link: https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fdanjtl.github.io%252Fjonnas-anti-age%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv
 
 **Accessibility report:**
 

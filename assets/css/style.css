@@ -41,6 +41,7 @@ h1, h2, h3 {
     font-weight: 800;
     letter-spacing: 2px;
     display: flex;
+    /* flex direction learned from https://developer.mozilla.org/en-US/docs/Web/CSS/flex-direction */
     flex-direction: row;
     float: right;
     margin-right: 30px;
@@ -62,6 +63,7 @@ h1, h2, h3 {
     display: inline;
     padding: 5px;
     border-radius: 7px;
+    /* transition learned from https://www.w3schools.com/css/css3_transitions.asp */
     transition: 0.5s;
 }
 
@@ -154,6 +156,7 @@ h1, h2, h3 {
 #anti-age-row {
     margin-top: 30px;
     display: flex;
+    /* justify-content learned from https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content */
     justify-content: space-evenly;
 }
 
@@ -163,6 +166,7 @@ h1, h2, h3 {
     border-radius: 20px;
     padding: 15px 30px;
     margin-bottom: 30px;
+    /* box-shadow learned from https://www.w3schools.com/cssref/css3_pr_box-shadow.asp */
     box-shadow: 0 0 30px 0px rgba(0, 0, 0, .3);
 }
 
